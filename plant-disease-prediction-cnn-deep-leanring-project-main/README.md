@@ -1,7 +1,20 @@
-# plant-disease-prediction-cnn-deep-leanring-project
-This repository is about building an Image classifier CNN with Python on Plant Disease Prediction.
+# Plant Disease Prediction Using CNN
 
-Kaggle Dataset Link: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+This project implements a Convolutional Neural Network (CNN) for classifying plant diseases using the **PlantVillage Dataset**. The model is trained on color images of plant leaves and predicts the type of disease affecting the plant.
 
-Trained Model Link: [[https://drive.google.com/file/d/1i466c4XOs048Q54EPCqgzoG8zWcARnrj/view?usp=sharing](https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=sharing)](https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=drive_link)https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=drive_link
+## Project Overview
 
+The steps involved in the project include:
+- Data curation using Kaggle's **PlantVillage dataset**.
+- Data preprocessing and augmentation for better generalization.
+- Building and training a CNN model using TensorFlow/Keras.
+- Evaluating the model's performance on unseen data.
+- Saving the trained model and building a predictive system for real-time image classification.
+
+## Dataset
+
+The dataset used is the **PlantVillage Dataset**, which contains segmented images of healthy and diseased plant leaves. The dataset consists of 38 classes, each representing a unique disease or a healthy plant.
+
+### Dataset Source
+
+The dataset can be downloaded from Kaggle: [PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
